@@ -2,6 +2,7 @@
   "expo": {
     "name": "khanaGo",
     "slug": "khanaGo",
+    "scheme": "foodapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +22,16 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.vkaransingh.khanaGo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f3415a2e-c3c7-483b-9799-0b7793137812"
+      }
     }
   }
 }
